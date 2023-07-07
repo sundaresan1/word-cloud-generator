@@ -75,7 +75,7 @@ func main() {
 	mux.Handle("/", staticFs)
 
 	// Bind to a port and pass our router in
-	err := http.ListenAndServe(":8888", mux)
+	err := http.ListenAndServe(":8989", mux)
 
 	if err != nil {
 		log.Fatal(err)
