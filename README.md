@@ -53,7 +53,7 @@ make goconvey
 ```
 
 ### To Run
-`make run` or just run the executable.  It will run as a daemon and bind to port 8888, and you can see it by going to http://localhost:8888 in your browser.
+`make run` or just run the executable.  It will run as a daemon and bind to port 8989, and you can see it by going to http://localhost:8989 in your browser.
 
 ## Use API via Curl
 ```
